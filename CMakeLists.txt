@@ -30,7 +30,6 @@ else()
     include_directories(${JSONCPP_INCLUDE_DIRS})
     link_directories(${JSONCPP_LIBRARY_DIRS})
     set(JSONCPP_LINK_TARGETS "jsoncpp")
-    set(JSON_PREFIX "jsoncpp")
 endif()
 
 set(THREADS_PREFER_PTHREAD_FLAG ON)
